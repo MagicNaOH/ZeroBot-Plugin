@@ -92,8 +92,8 @@ func init() { // 插件主体
 				ctx.SendChain(message.Reply(ctx.Event.MessageID), randText(
 					"zzzz......",
 					"zzzzzzzz......",
-					"zzz...好涩哦..zzz....",
-					"别...不要..zzz..那..zzz..",
+					"zzz.....zzz....",
+					"充电中...",
 					"嘻嘻..zzz..呐~..zzzz..",
 					"...zzz....哧溜哧溜....",
 				))
@@ -103,7 +103,7 @@ func init() { // 插件主体
 					"唔......吧唧...早上...哈啊啊~~~\n早上好......",
 					"早上好......",
 					"早上好呜......呼啊啊~~~~",
-					"啊......早上好。\n昨晚也很激情呢！",
+					"啊......早上好。",
 					"吧唧吧唧......怎么了...已经早上了么...",
 					"早上好！",
 					"......看起来像是傍晚，其实已经早上了吗？",
@@ -129,7 +129,7 @@ func init() { // 插件主体
 			if now > 11 && now < 15 { // 中午
 				ctx.SendChain(message.Reply(ctx.Event.MessageID), randText(
 					"午安w",
-					"午觉要好好睡哦，ATRI会陪伴在你身旁的w",
+					"午觉要好好睡哦，NAVI会陪伴在你身旁的w",
 					"嗯哼哼~睡吧，就像平常一样安眠吧~o(≧▽≦)o",
 					"睡你午觉去！哼唧！！",
 				))
@@ -143,8 +143,8 @@ func init() { // 插件主体
 				ctx.SendChain(message.Reply(ctx.Event.MessageID), randText(
 					"zzzz......",
 					"zzzzzzzz......",
-					"zzz...好涩哦..zzz....",
-					"别...不要..zzz..那..zzz..",
+					"zzz.....zzz....",
+					"充电中...",
 					"嘻嘻..zzz..呐~..zzzz..",
 					"...zzz....哧溜哧溜....",
 				))
